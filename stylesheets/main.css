@@ -1,0 +1,11 @@
+@import url("./main/task-creation.css");
+@import url("./main/tasks.css");
+@import url("./main/dashboard.css");
+@import url("./main/pkmn.css");
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-grow: 1;
+}

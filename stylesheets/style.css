@@ -1,0 +1,104 @@
+@import url("./header.css");
+@import url("./main.css");
+@import url("./footer.css");
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+* {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin and padding
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+/*
+  3. Allow percentage-based heights in the application
+*/
+html,
+body {
+  height: 100%;
+}
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  6. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  7. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/*
+  8. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+/*
+  9. Create a root stacking context
+*/
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* my changes */
+
+:root {
+  --clr-1: #304C89;
+  --clr-2: #648DE5;
+  --clr-3: #9EB7E5;
+  --clr-4: #E8E5DA;
+  --clr-5: #CDC392;
+  --white: #FFF;
+  --black: #000;
+  --pkmn-clr-1: #ff0000;
+  --pkmn-clr-2: #cc0000;
+  --pkmn-clr-3: #3b4cca;
+  --pkmn-clr-4: #ffde00;
+  --pkmn-clr-5: #b3a125;
+  --clr-gray-1: #595959;
+  --clr-gray-2: #7f7f7f;
+  --clr-gray-3: #a5a5a5;
+  --clr-gray-4: #cccccc;
+  --clr-gray-5: #f2f2f2;
+  font-size: 8px;
+  font-family: "Lobster", cursive;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 100vh;
+  background-color: var(--clr-4);
+}

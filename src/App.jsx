@@ -1,3 +1,15 @@
-export function App() {
-  return <h1>Hello world!</h1>;
+import React from "react";
+import "../stylesheets/style.css";
+import { Header } from "./components/Header";
+import Main from "./components/Main";
+
+function App() {
+  return (
+    <div>
+      <Header />
+      <Main />
+    </div>
+  );
 }
+
+export { App };
