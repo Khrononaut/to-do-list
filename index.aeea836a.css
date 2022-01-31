@@ -1,0 +1,511 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background-color: var(--clr-1);
+}
+
+h1 {
+  font-family: "Varela Round", sans-serif;
+  font-size: 6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.125rem;
+  color: var(--clr-4);
+}
+
+.task-creation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  width: 100vw;
+  font-size: 2rem;
+  background-color: var(--clr-1);
+  position: fixed;
+  bottom: 0;
+}
+
+.task-form {
+  background-color: var(--clr-2);
+  width: 90%;
+  height: 60%;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem 1rem 2rem;
+  border: 4px solid transparent;
+  transition: all .5s;
+}
+
+.task-form:hover {
+  border-color: var(--clr-3);
+  filter: brightness(1.125);
+}
+
+.task-input {
+  flex-grow: 1;
+  background-color: transparent;
+  border-style: none;
+}
+
+.task-input:focus {
+  outline: none;
+}
+
+.task-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  padding: 1rem;
+  text-transform: uppercase;
+  border-radius: 2rem;
+  border: solid 0.25rem black;
+  background-color: var(--clr-5);
+  margin-left: 2rem;
+  opacity: .5;
+  font-family: "Valera", sans-serif;
+  cursor: pointer;
+  transition: all .25s;
+  box-shadow: 0px 0px 1.1px rgba(0, 0, 0, 0.023),
+    0px 0px 2.4px rgba(0, 0, 0, 0.034), 0px 0px 4px rgba(0, 0, 0, 0.042),
+    0px 0px 6.1px rgba(0, 0, 0, 0.049), 0px 0px 8.8px rgba(0, 0, 0, 0.055),
+    0px 0px 12.4px rgba(0, 0, 0, 0.061), 0px 0px 17.6px rgba(0, 0, 0, 0.068),
+    0px 0px 25.6px rgba(0, 0, 0, 0.076), 0px 0px 39.4px rgba(0, 0, 0, 0.087),
+    0px 0px 70px rgba(0, 0, 0, 0.11);
+}
+
+.task-btn:active {
+  outline: none;
+}
+
+.task-btn:hover {
+  transform: scale(1.125);
+}
+
+.inputNotEmpty {
+  opacity: 1;
+}
+
+.tasks {
+  font-size: 2rem;
+  height: 65vh;
+  padding: 2rem;
+  overflow: auto;
+}
+
+.tasks li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--clr-5);
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  box-shadow: 0px 0px 1.1px rgba(0, 0, 0, 0.023),
+    0px 0px 2.4px rgba(0, 0, 0, 0.034), 0px 0px 4px rgba(0, 0, 0, 0.042),
+    0px 0px 6.1px rgba(0, 0, 0, 0.049), 0px 0px 8.8px rgba(0, 0, 0, 0.055),
+    0px 0px 12.4px rgba(0, 0, 0, 0.061), 0px 0px 17.6px rgba(0, 0, 0, 0.068),
+    0px 0px 25.6px rgba(0, 0, 0, 0.076), 0px 0px 39.4px rgba(0, 0, 0, 0.087),
+    0px 0px 70px rgba(0, 0, 0, 0.11);
+}
+
+.tasks li:hover {
+  filter: saturate(1.5);
+}
+
+.tasks span {
+  flex-grow: 1;
+  overflow-x: auto;
+}
+
+.tasks div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25rem;
+  margin-left: 2rem;
+}
+
+.tasks div > * {
+  margin: calc(0.25rem + 1vw);
+}
+
+.tasks .fa-trash-can {
+  opacity: 0.5;
+  transition: all 0.25s;
+  cursor: pointer;
+}
+
+.tasks .fa-trash-can:hover {
+  opacity: 1;
+  color: #a13333;
+  transform: scale(1.25);
+}
+
+.circle {
+  color: var(--black);
+  transition: all .25s;
+  cursor: pointer;
+}
+
+.circle:hover {
+  transform: scale(1.15);
+}
+
+.crossedOut {
+  text-decoration: line-through;
+}
+
+.checkedOff {
+  opacity: 0.375;
+  transition: all 0.5s;
+  background-color: #91C483 !important;
+}
+
+.checkedOff:hover {
+  opacity: 0.75;
+}
+
+hr {
+  margin: 2.5vh 0;
+  border: 0.25rem solid var(--clr-1);
+  box-shadow: 0px 0px 1.1px rgba(0, 0, 0, 0.023),
+    0px 0px 2.4px rgba(0, 0, 0, 0.034), 0px 0px 4px rgba(0, 0, 0, 0.042),
+    0px 0px 6.1px rgba(0, 0, 0, 0.049), 0px 0px 8.8px rgba(0, 0, 0, 0.055),
+    0px 0px 12.4px rgba(0, 0, 0, 0.061), 0px 0px 17.6px rgba(0, 0, 0, 0.068),
+    0px 0px 25.6px rgba(0, 0, 0, 0.076), 0px 0px 39.4px rgba(0, 0, 0, 0.087),
+    0px 0px 70px rgba(0, 0, 0, 0.11);
+}
+
+.undisplayed {
+  display: none;
+}
+
+.dashboard {
+  background-color: var(--clr-2);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  height: 10vh;
+  color: var(--clr-4);
+  padding: 1rem;
+}
+
+.dashboard-component {
+  border: solid 2px var(--clr-3);
+  border-radius: 1rem;
+  margin: 0.5rem;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  padding: 1.75rem 0.5rem 0.25rem 0.5rem;
+  transition: all 0.5s;
+  background-color: var(--clr-3);
+  cursor: pointer;
+}
+
+.dashboard span {
+  font-family: "Varela Round", sans-serif;
+  font-weight: bold;
+}
+
+.deleteAll {
+  color: #a13333;
+  border-color: #a13333;
+}
+
+.deleteAll:hover {
+  background-color: rgb(229, 170, 170);
+}
+
+.checkOffAll {
+  color: #395f3e;
+  border-color: #395f3e;
+}
+
+.checkOffAll:hover {
+  background-color: rgb(173, 199, 176);
+}
+
+.resetAll {
+  color: #ad5827;
+  border-color: #ad5827;
+}
+
+.resetAll:hover {
+  background-color: #dfaa8c;
+}
+
+.toggleDarkMode {
+  color: #181414;
+  border-color: #181414;
+}
+
+.toggleDarkMode:hover {
+  background-color: #948d8d;
+}
+
+.pkmn-background {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pkmn-card {
+  display: flex;
+  bottom: 10%;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  border: solid 2px var(--clr-gray-4);
+  border-radius: 1rem;
+  font-family: "VT323", monospace;
+  padding: 3rem 1rem;
+  background-color: var(--clr-gray-5);
+  transition: all .5s;
+  z-index: 2;
+  margin: auto 2rem;
+}
+
+.top-div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+img {
+  background: linear-gradient(red, red 50%, white 50%, white 100%);
+  border: black solid 0.5rem;
+  border-radius: 50%;
+  height: 120px;
+  width: auto;
+  margin: 0 3rem;
+}
+
+.sub-div {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  border-radius: 2rem;
+}
+
+.pkmn-name {
+  text-transform: uppercase;
+  font-size: 5rem;
+  text-align: center;
+  letter-spacing: 0.5rem;
+  margin: 0 2rem;
+}
+
+.type-ctr {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.type-ctr > * {
+  background-color: var(--clr-gray-2);
+  color: whitesmoke;
+  border-radius: 1rem;
+  font-size: 1.75 rem;
+  padding: 0.5rem 1rem;
+  letter-spacing: 0.25rem;
+  text-align: center;
+  margin-left: 1rem;
+}
+
+.bottom-div {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.pkmn-desc {
+  background-color: var(--clr-gray-4);
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: justify;
+  font-size: 1.75rem;
+  letter-spacing: 0.15rem;
+  margin: 3rem 0;
+}
+
+.pkmn-link-btn {
+  font-family: "Mochiy Pop P One", sans-serif;
+  width: auto;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  border-radius: 1rem;
+  padding: 0.5rem 2rem;
+}
+
+.pkmn-link-btn > a {
+  text-decoration: none;
+  color: black;
+}
+
+.discard-btn {
+  align-self: flex-end;
+  margin: 3rem;
+  border-radius: 50%;
+  background-color: var(--pkmn-clr-4);
+  color: var(--pkmn-clr-3);
+  border-style: none;
+  z-index: 2;
+  transition: all .5s;
+  cursor: pointer;
+}
+
+.discard-btn:hover {
+  transform: scale(1.5);
+}
+
+.congratulation {
+  color: white;
+  z-index: 2;
+  font-size: calc(1rem + 3vw);
+  top: 12.5%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  transition: all .5s;
+}
+
+.invisible {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.dimmed {
+  background-color: black;
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-grow: 1;
+}
+
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+* {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin and padding
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+/*
+  3. Allow percentage-based heights in the application
+*/
+html,
+body {
+  height: 100%;
+}
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  6. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  7. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/*
+  8. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+/*
+  9. Create a root stacking context
+*/
+#root,
+#__next {
+  isolation: isolate;
+}
+/* my changes */
+:root {
+  --clr-1: #304C89;
+  --clr-2: #648DE5;
+  --clr-3: #9EB7E5;
+  --clr-4: #E8E5DA;
+  --clr-5: #CDC392;
+  --white: #FFF;
+  --black: #000;
+  --pkmn-clr-1: #ff0000;
+  --pkmn-clr-2: #cc0000;
+  --pkmn-clr-3: #3b4cca;
+  --pkmn-clr-4: #ffde00;
+  --pkmn-clr-5: #b3a125;
+  --clr-gray-1: #595959;
+  --clr-gray-2: #7f7f7f;
+  --clr-gray-3: #a5a5a5;
+  --clr-gray-4: #cccccc;
+  --clr-gray-5: #f2f2f2;
+  font-size: 8px;
+  font-family: "Lobster", cursive;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 100vh;
+  background-color: var(--clr-4);
+}
+/*# sourceMappingURL=index.aeea836a.css.map */
