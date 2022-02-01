@@ -8,4 +8,9 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   flex-grow: 1;
+  background-color: var(--clr-4);
+}
+
+main.dm {
+  background-color: var(--dm-tasks-background);
 }

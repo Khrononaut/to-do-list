@@ -74,12 +74,12 @@ h6 {
 /* my changes */
 
 :root {
-  --clr-1: #304C89;
-  --clr-2: #648DE5;
-  --clr-3: #9EB7E5;
-  --clr-4: #E8E5DA;
-  --clr-5: #CDC392;
-  --white: #FFF;
+  --clr-1: #304c89;
+  --clr-2: #648de5;
+  --clr-3: #9eb7e5;
+  --clr-4: #e8e5da;
+  --clr-5: #cdc392;
+  --white: #fff;
   --black: #000;
   --pkmn-clr-1: #ff0000;
   --pkmn-clr-2: #cc0000;
@@ -91,6 +91,21 @@ h6 {
   --clr-gray-3: #a5a5a5;
   --clr-gray-4: #cccccc;
   --clr-gray-5: #f2f2f2;
+  --dm-1: #9D9B9B;
+  --dm-2: #797979;
+  --dm-3: #5B5B5B;
+  --dm-4: #404040;
+  --dm-5: #222;
+  --dm-font-hdg: #b6aeae;
+  --dm-font-span: #C1C1C1;
+  --dm-tasks-background: rgba(59, 58, 57, 1);
+  --dm-tasks-item: rgba(82, 80, 73, 1);
+  --dm-red: #4F091D;
+  --dm-red-2: #4f091d70;
+  --dm-green: #16351c;
+  --dm-green-2: #1e512821;
+  --dm-orange: #5a290c;
+  --dm-orange-2: #5a290c4f;
   font-size: 8px;
   font-family: "Lobster", cursive;
 }
@@ -100,5 +115,6 @@ body {
   flex-direction: column;
   align-items: stretch;
   height: 100vh;
-  background-color: var(--clr-4);
 }
+
+

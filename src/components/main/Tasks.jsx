@@ -1,17 +1,20 @@
 import React from "react";
+import { useContext } from "react";
+import { ThemeContext } from "../../context/theme";
+import PkmnCard from "./PokemonCard";
 import "../../../stylesheets/main/tasks.css";
 import "../../../stylesheets/main/task-creation.css";
-import PkmnCard from "./PokemonCard"
 
 export default function Tasks(props) {
+  const { darkMode, toggleMode } = useContext(ThemeContext);
   const tasks = props.tasks.map((task, i) => {
     return (
-      <li id={`task-no-${i + 1}`}>
-        <span>{task}</span>
-        <div>
-          <i className="fa-solid fa-trash-can" onClick={props.removeTask}></i>
+      <li id={`task-no-${i + 1}`} className={`task-item ${darkMode ? "dm" : ""}`}>
+        <span className={`task-content ${darkMode ? "dm" : ""}`}>{task}</span>
+        <div className={`task-btn-ctr ${darkMode ? "dm" : ""}`}>
+          <i className={`fa-solid fa-trash-can task-delete-btn ${darkMode ? "dm" : ""}`} onClick={props.removeTask}></i>
           <span
-            className="material-icons-outlined circle"
+            className={`material-icons-outlined circle ${darkMode ? "dm" : ""}`}
             onClick={props.checkOffTask}
           >
             circle
@@ -20,24 +23,24 @@ export default function Tasks(props) {
       </li>
     );
   });
-
+// className={`${darkMode ? "dm" : ""}`}
   return (
-    <div>
-      <section className="tasks">
+    <>
+      <section className={`tasks ${darkMode ? "dm" : ""}`}>
         <ul className="undone-tasks">{tasks}</ul>
-        <hr className={props.visibilities.hr} />
+        <hr className={`${props.visibilities.hr} ${darkMode ? "dm" : ""}`} />
         <ul className="done-tasks"></ul>
       </section>
-      <section className="task-creation">
-        <form className="task-form" onSubmit={props.submitTask}>
+      <section className={`task-creation ${darkMode ? "dm" : ""}`}>
+        <form className={`task-form ${darkMode ? "dm" : ""}`} onSubmit={props.submitTask}>
           <input
             type="text"
-            className="task-input"
+            className={`task-input ${darkMode ? "dm" : ""}`}
             value={props.pendingTask}
             onChange={props.updatePendingTask}
             onInput={props.changeBtnColor}
           />
-          <button className="task-btn">
+          <button className={`task-btn ${darkMode ? "dm" : ""}`}>
             <i className="material-icons">add_task</i>
           </button>
         </form>
@@ -51,6 +54,6 @@ export default function Tasks(props) {
         desc={props.desc}
         types={props.types}
       />
-    </div>
+    </>
   );
 }

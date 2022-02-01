@@ -5,7 +5,7 @@
   overflow: auto;
 }
 
-.tasks li {
+.task-item {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
@@ -22,34 +22,48 @@
     0px 0px 70px rgba(0, 0, 0, 0.11);
 }
 
-.tasks li:hover {
+.task-item.dm {
+  background-color: var(--dm-tasks-item);
+  color: var(--dm-font-span);
+}
+
+.task-item:hover {
   filter: saturate(1.5);
 }
 
-.tasks span {
+.task-content {
   flex-grow: 1;
   overflow-x: auto;
 }
 
-.tasks div {
+.task-content.dm {
+  color: var(--dm-hdg);
+}
+
+.task-btn-ctr {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0.25rem;
   margin-left: 2rem;
+  color: var(--dm-font-span);
 }
 
-.tasks div > * {
+.task-btn-ctr > * {
   margin: calc(0.25rem + 1vw);
 }
 
-.tasks .fa-trash-can {
+.task-delete-btn {
   opacity: 0.5;
   transition: all 0.25s;
   cursor: pointer;
 }
 
-.tasks .fa-trash-can:hover {
+.task-delete-btn.dm {
+  color: var(--dm-hdg);
+}
+
+.task-delete-btn:hover {
   opacity: 1;
   color: #a13333;
   transform: scale(1.25);
@@ -59,6 +73,10 @@
   color: var(--black);
   transition: all .25s;
   cursor: pointer;
+}
+
+.circle.dm {
+  color: var(--dm-hdg);
 }
 
 .circle:hover {
@@ -75,6 +93,10 @@
   background-color: #91C483 !important;
 }
 
+.checkedOff.dm {
+  background-color: blue;
+}
+
 .checkedOff:hover {
   opacity: 0.75;
 }
@@ -88,6 +110,10 @@ hr {
     0px 0px 12.4px rgba(0, 0, 0, 0.061), 0px 0px 17.6px rgba(0, 0, 0, 0.068),
     0px 0px 25.6px rgba(0, 0, 0, 0.076), 0px 0px 39.4px rgba(0, 0, 0, 0.087),
     0px 0px 70px rgba(0, 0, 0, 0.11);
+}
+
+hr.dm {
+  border-color: var(--dm-5n);
 }
 
 .undisplayed {

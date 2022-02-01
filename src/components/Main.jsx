@@ -1,5 +1,6 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState, useContext } from "react";
+import { ThemeContext } from "../context/theme";
 import "../../stylesheets/main.css";
 import Dashboard from "./main/Dashboard";
 import Tasks from "./main/Tasks";
@@ -17,6 +18,7 @@ export default function Main() {
   const [types, setTypes] = useState([]);
   const [imgUrl, setImgUrl] = useState("");
   const [allowedToDisplay, setDisplayAllowance] = useState(true);
+  const { darkMode, toggleMode } = useContext(ThemeContext);
 
   const doneTasks = document.querySelector(".done-tasks");
   const undoneTasks = document.querySelector(".undone-tasks");
@@ -84,9 +86,7 @@ export default function Main() {
     } else {
       e.target.innerText = "circle";
       undoneTasks.appendChild(e.target.parentNode.parentNode);
-      setDisplayAllowance(true);
-      fetchPkmnData();
-      togglePkmnCard("display");
+      setCheckOffAllowance(true);
     }
 
     if (doneTasks.hasChildNodes() && undoneTasks.hasChildNodes()) {
@@ -190,7 +190,7 @@ export default function Main() {
   };
 
   return (
-    <main>
+    <main className={`${darkMode ? "dm" : ""}`}>
       <Dashboard
         removeAllTasks={removeAllTasks}
         checkOffAllTasks={checkOffAllTasks}

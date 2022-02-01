@@ -1,21 +1,13 @@
 import React from "react";
+import { useContext } from "react";
 import "../../stylesheets/header.css";
+import { ThemeContext } from "../context/theme";
 
-class Header extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-
-        };
-    }
-
-    render () {
-        return(
-            <header>
-                <h1>To-do list</h1>
-            </header>
-        );
-    }
+export default function Header() {
+  const { darkMode, toggleMode } = useContext(ThemeContext);
+  return (
+    <header className={`${darkMode ? "dm" : ""}`}>
+      <h1 className={`${darkMode ? "dm" : ""}`}>To-do list</h1>
+    </header>
+  );
 }
-
-export { Header };

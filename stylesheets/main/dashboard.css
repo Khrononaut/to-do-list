@@ -8,6 +8,10 @@
   padding: 1rem;
 }
 
+.dashboard.dm {
+  background-color: var(--dm-4);
+}
+
 .dashboard-component {
   border: solid 2px var(--clr-3);
   border-radius: 1rem;
@@ -19,8 +23,12 @@
   flex-grow: 1;
   padding: 1.75rem 0.5rem 0.25rem 0.5rem;
   transition: all 0.5s;
-  background-color: var(--clr-3);
   cursor: pointer;
+  background-color: var(--clr-3);
+}
+
+.dashboard-component.dm {
+  background-color: var(--dm-3);
 }
 
 .dashboard span {
@@ -33,8 +41,19 @@
   border-color: #a13333;
 }
 
+.deleteAll.dm {
+  color: var(--dm-red);
+  border-color: var(--dm-red);
+}
+
 .deleteAll:hover {
   background-color: rgb(229, 170, 170);
+}
+
+.deleteAll:hover.dm {
+  background-color: var(--dm-red-2);
+  color: var(--dm-font-span);
+  border-color: var(--dm-font-span);
 }
 
 .checkOffAll {
@@ -42,8 +61,19 @@
   border-color: #395f3e;
 }
 
+.checkOffAll.dm {
+  color: var(--dm-green);
+  border-color: var(--dm-green);
+}
+
 .checkOffAll:hover {
   background-color: rgb(173, 199, 176);
+}
+
+.checkOffAll.dm:hover {
+  background-color: var(--dm-green-2);
+  color: var(--dm-font-span);
+  border-color: var(--dm-font-span);
 }
 
 .resetAll {
@@ -51,8 +81,19 @@
   border-color: #ad5827;
 }
 
+.resetAll.dm {
+  color: var(--dm-orange);
+  border-color: var(--dm-orange);
+}
+
 .resetAll:hover {
   background-color: #dfaa8c;
+}
+
+.resetAll.dm:hover {
+  background-color: var(--dm-orange-2);
+  color: var(--dm-font-span);
+  border-color: var(--dm-font-span);
 }
 
 .toggleDarkMode {
