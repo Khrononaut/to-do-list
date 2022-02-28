@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"5p766":[function(require,module,exports) {
+})({"eaJGC":[function(require,module,exports) {
 var Refresh = require('react-refresh/runtime');
 Refresh.injectIntoGlobalHook(window);
 window.$RefreshReg$ = function() {
@@ -153,11 +153,11 @@ window.$RefreshSig$ = function() {
     };
 };
 
-},{"react-refresh/runtime":"kn4BV"}],"kn4BV":[function(require,module,exports) {
+},{"react-refresh/runtime":"lemUs"}],"lemUs":[function(require,module,exports) {
 'use strict';
 module.exports = require('./cjs/react-refresh-runtime.development.js');
 
-},{"./cjs/react-refresh-runtime.development.js":"9QiKe"}],"9QiKe":[function(require,module,exports) {
+},{"./cjs/react-refresh-runtime.development.js":"15NMK"}],"15NMK":[function(require,module,exports) {
 /** @license React v0.9.0
  * react-refresh-runtime.development.js
  *
@@ -620,12 +620,12 @@ module.exports = require('./cjs/react-refresh-runtime.development.js');
     exports.setSignature = setSignature;
 })();
 
-},{}],"gpAfH":[function(require,module,exports) {
+},{}],"fCw4I":[function(require,module,exports) {
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "4a236f9275d0a351";
-module.bundle.HMR_BUNDLE_ID = "37b1125a5d256ab6";
+module.bundle.HMR_BUNDLE_ID = "ece755eb274ba7d4";
 "use strict";
 function _toConsumableArray(arr) {
     return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread();
@@ -996,11 +996,11 @@ function hmrAcceptRun(bundle, id) {
     acceptedAssets[id] = true;
 }
 
-},{}],"fKPdU":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$7902 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{}],"hJjAe":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$099f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$7902.prelude(module);
+$parcel$ReactRefreshHelpers$099f.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -1012,21 +1012,21 @@ var _appDefault = parcelHelpers.interopDefault(_app);
 const app = document.getElementById("app");
 _reactDomDefault.default.render(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_appDefault.default, {
 }, void 0, false, {
-    fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/index.js",
+    fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/index.js",
     lineNumber: 5,
     columnNumber: 17
 }, undefined), app);
 
-  $parcel$ReactRefreshHelpers$7902.postlude(module);
+  $parcel$ReactRefreshHelpers$099f.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"CsIqf","react-dom":"lJDkI","./App":"lbVIh","@parcel/transformer-js/src/esmodule-helpers.js":"ixTFe","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"iSBV5"}],"CsIqf":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"luSWC","react-dom":"kJGXf","./App":"hwUYs","@parcel/transformer-js/src/esmodule-helpers.js":"9M0u6","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"lHSPS"}],"luSWC":[function(require,module,exports) {
 'use strict';
 module.exports = require('./cjs/react-jsx-dev-runtime.development.js');
 
-},{"./cjs/react-jsx-dev-runtime.development.js":"aPJcZ"}],"aPJcZ":[function(require,module,exports) {
+},{"./cjs/react-jsx-dev-runtime.development.js":"c0Z2N"}],"c0Z2N":[function(require,module,exports) {
 /** @license React v17.0.2
  * react-jsx-dev-runtime.development.js
  *
@@ -1817,11 +1817,11 @@ module.exports = require('./cjs/react-jsx-dev-runtime.development.js');
     exports.jsxDEV = jsxDEV$1;
 })();
 
-},{"react":"5nGSY","object-assign":"8Imqy"}],"5nGSY":[function(require,module,exports) {
+},{"react":"77mu6","object-assign":"cTrqU"}],"77mu6":[function(require,module,exports) {
 'use strict';
 module.exports = require('./cjs/react.development.js');
 
-},{"./cjs/react.development.js":"1ZRPJ"}],"1ZRPJ":[function(require,module,exports) {
+},{"./cjs/react.development.js":"jAGA5"}],"jAGA5":[function(require,module,exports) {
 /** @license React v17.0.2
  * react.development.js
  *
@@ -3420,7 +3420,7 @@ module.exports = require('./cjs/react.development.js');
     exports.version = ReactVersion;
 })();
 
-},{"object-assign":"8Imqy"}],"8Imqy":[function(require,module,exports) {
+},{"object-assign":"cTrqU"}],"cTrqU":[function(require,module,exports) {
 /*
 object-assign
 (c) Sindre Sorhus
@@ -3478,7 +3478,7 @@ module.exports = shouldUseNative() ? Object.assign : function(target, source) {
     return to;
 };
 
-},{}],"lJDkI":[function(require,module,exports) {
+},{}],"kJGXf":[function(require,module,exports) {
 'use strict';
 function checkDCE() {
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ === 'undefined' || typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE !== 'function') return;
@@ -3494,7 +3494,7 @@ function checkDCE() {
 }
 module.exports = require('./cjs/react-dom.development.js');
 
-},{"./cjs/react-dom.development.js":"CXq4k"}],"CXq4k":[function(require,module,exports) {
+},{"./cjs/react-dom.development.js":"ir7i2"}],"ir7i2":[function(require,module,exports) {
 /** @license React v17.0.2
  * react-dom.development.js
  *
@@ -22035,11 +22035,11 @@ module.exports = require('./cjs/react-dom.development.js');
     exports.version = ReactVersion;
 })();
 
-},{"react":"5nGSY","object-assign":"8Imqy","scheduler":"k5kpk","scheduler/tracing":"bdhbj"}],"k5kpk":[function(require,module,exports) {
+},{"react":"77mu6","object-assign":"cTrqU","scheduler":"33cuI","scheduler/tracing":"3nTuN"}],"33cuI":[function(require,module,exports) {
 'use strict';
 module.exports = require('./cjs/scheduler.development.js');
 
-},{"./cjs/scheduler.development.js":"lkLop"}],"lkLop":[function(require,module,exports) {
+},{"./cjs/scheduler.development.js":"jPzx7"}],"jPzx7":[function(require,module,exports) {
 /** @license React v0.20.2
  * scheduler.development.js
  *
@@ -22512,11 +22512,11 @@ module.exports = require('./cjs/scheduler.development.js');
     exports.unstable_wrapCallback = unstable_wrapCallback;
 })();
 
-},{}],"bdhbj":[function(require,module,exports) {
+},{}],"3nTuN":[function(require,module,exports) {
 'use strict';
 module.exports = require('./cjs/scheduler-tracing.development.js');
 
-},{"./cjs/scheduler-tracing.development.js":"7PonT"}],"7PonT":[function(require,module,exports) {
+},{"./cjs/scheduler-tracing.development.js":"7xRQS"}],"7xRQS":[function(require,module,exports) {
 /** @license React v0.20.2
  * scheduler-tracing.development.js
  *
@@ -22768,11 +22768,11 @@ module.exports = require('./cjs/scheduler-tracing.development.js');
     exports.unstable_wrap = unstable_wrap;
 })();
 
-},{}],"lbVIh":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$f491 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{}],"hwUYs":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$309e = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$f491.prelude(module);
+$parcel$ReactRefreshHelpers$309e.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -22804,24 +22804,24 @@ function App() {
             children: [
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_headerDefault.default, {
                 }, void 0, false, {
-                    fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/App.jsx",
+                    fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/App.jsx",
                     lineNumber: 18,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_mainDefault.default, {
                 }, void 0, false, {
-                    fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/App.jsx",
+                    fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/App.jsx",
                     lineNumber: 19,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
-            fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/App.jsx",
+            fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/App.jsx",
             lineNumber: 17,
             columnNumber: 7
         }, this)
     }, void 0, false, {
-        fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/App.jsx",
+        fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/App.jsx",
         lineNumber: 16,
         columnNumber: 5
     }, this));
@@ -22832,50 +22832,31 @@ _c = App;
 var _c;
 $RefreshReg$(_c, "App");
 
-  $parcel$ReactRefreshHelpers$f491.postlude(module);
+  $parcel$ReactRefreshHelpers$309e.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"CsIqf","react":"5nGSY","../stylesheets/style.css":"10rtH","./components/Header":"dlIbv","./components/Main":"6Fkur","@parcel/transformer-js/src/esmodule-helpers.js":"ixTFe","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"iSBV5","./context/theme":"8KMIu"}],"10rtH":[function() {},{}],"dlIbv":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$1a5a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-dev-runtime":"luSWC","react":"77mu6","../stylesheets/style.css":"emgQN","./context/theme":"6YWYb","./components/Header":"8SCL2","./components/Main":"1Qivw","@parcel/transformer-js/src/esmodule-helpers.js":"9M0u6","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"lHSPS"}],"emgQN":[function() {},{}],"6YWYb":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$449f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$1a5a.prelude(module);
+$parcel$ReactRefreshHelpers$449f.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
+parcelHelpers.export(exports, "ThemeContext", ()=>ThemeContext
+);
 var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _headerCss = require("../../stylesheets/header.css");
-function Header() {
-    return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV("header", {
-        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
-            children: "To-do list"
-        }, void 0, false, {
-            fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/Header.jsx",
-            lineNumber: 7,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/Header.jsx",
-        lineNumber: 6,
-        columnNumber: 5
-    }, this));
-}
-exports.default = Header;
-_c = Header;
-var _c;
-$RefreshReg$(_c, "Header");
+const ThemeContext = /*#__PURE__*/ _react.createContext();
 
-  $parcel$ReactRefreshHelpers$1a5a.postlude(module);
+  $parcel$ReactRefreshHelpers$449f.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"CsIqf","react":"5nGSY","../../stylesheets/header.css":"hnsR8","@parcel/transformer-js/src/esmodule-helpers.js":"ixTFe","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"iSBV5"}],"hnsR8":[function() {},{}],"ixTFe":[function(require,module,exports) {
+},{"react":"77mu6","@parcel/transformer-js/src/esmodule-helpers.js":"9M0u6","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"lHSPS"}],"9M0u6":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -22905,7 +22886,7 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"iSBV5":[function(require,module,exports) {
+},{}],"lHSPS":[function(require,module,exports) {
 "use strict";
 var Refresh = require('react-refresh/runtime');
 function debounce(func, delay) {
@@ -23025,11 +23006,56 @@ function registerExportsForReactRefresh(module) {
     }
 }
 
-},{"react-refresh/runtime":"kn4BV"}],"6Fkur":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$ae70 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react-refresh/runtime":"lemUs"}],"8SCL2":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$0d72 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$ae70.prelude(module);
+$parcel$ReactRefreshHelpers$0d72.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _headerCss = require("../../stylesheets/header.css");
+var _theme = require("../context/theme");
+var _s = $RefreshSig$();
+function Header() {
+    _s();
+    const { darkMode , toggleMode  } = _react.useContext(_theme.ThemeContext);
+    return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV("header", {
+        className: `${darkMode ? "dm" : ""}`,
+        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+            className: `${darkMode ? "dm" : ""}`,
+            children: "To-do list"
+        }, void 0, false, {
+            fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/Header.jsx",
+            lineNumber: 10,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/Header.jsx",
+        lineNumber: 9,
+        columnNumber: 5
+    }, this));
+}
+exports.default = Header;
+_s(Header, "nHliyLVvexRWlK3IauvqrxUf1WA=");
+_c = Header;
+var _c;
+$RefreshReg$(_c, "Header");
+
+  $parcel$ReactRefreshHelpers$0d72.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"luSWC","react":"77mu6","../../stylesheets/header.css":"hSVqh","../context/theme":"6YWYb","@parcel/transformer-js/src/esmodule-helpers.js":"9M0u6","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"lHSPS"}],"hSVqh":[function() {},{}],"1Qivw":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$161c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$161c.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -23048,7 +23074,7 @@ function Main() {
     _s();
     const [pendingTask, setPendingTask] = _react.useState("");
     const [tasks, setTasks] = _react.useState([]);
-    const [allowedToCheckOff, setCheckOffAllowance] = _react.useState(true);
+    const [allowedToCheckOff, setCheckOffAllowance] = _react.useState(true); // switch preventing to check off another task immediately after having checked off a task
     const [visibilities, setVisibilities] = _react.useState({
         hr: "undisplayed",
         pkmnCard: "invisible"
@@ -23057,7 +23083,7 @@ function Main() {
     const [desc, setDesc] = _react.useState("");
     const [types, setTypes] = _react.useState([]);
     const [imgUrl, setImgUrl] = _react.useState("");
-    const [allowedToDisplay, setDisplayAllowance] = _react.useState(true);
+    const [allowedToDisplay, setDisplayAllowance] = _react.useState(false); // switch preventing to display the pokemon card after resetting a checked off task
     const { darkMode , toggleMode  } = _react.useContext(_theme.ThemeContext);
     const doneTasks = document.querySelector(".done-tasks");
     const undoneTasks = document.querySelector(".undone-tasks");
@@ -23073,6 +23099,7 @@ function Main() {
             setTasks((prevVal)=>prevVal.concat(pendingTask)
             );
             setPendingTask("");
+            setDisplayAllowance(true);
         }
         if (doneTasks.hasChildNodes()) setVisibilities({
             ...visibilities,
@@ -23089,12 +23116,14 @@ function Main() {
             ...visibilities,
             hr: "undisplayed"
         });
+        if (!undoneTasks.hasChildNodes()) setDisplayAllowance(false);
     };
     const removeAllTasks = ()=>{
         doneTasks.innerHTML = "";
         undoneTasks.innerHTML = "";
         horizontalRule.classList.remove("displayed");
         horizontalRule.classList.add("undisplayed");
+        setDisplayAllowance(false);
     };
     const checkOffTask = (e)=>{
         if (!allowedToCheckOff) return;
@@ -23110,9 +23139,7 @@ function Main() {
         } else {
             e.target.innerText = "circle";
             undoneTasks.appendChild(e.target.parentNode.parentNode);
-            setDisplayAllowance(true);
-            fetchPkmnData();
-            togglePkmnCard("display");
+            setCheckOffAllowance(true);
         }
         if (doneTasks.hasChildNodes() && undoneTasks.hasChildNodes()) setVisibilities({
             ...visibilities,
@@ -23122,12 +23149,15 @@ function Main() {
             ...visibilities,
             hr: "undisplayed"
         });
+        if (!undoneTasks.hasChildNodes()) setDisplayAllowance(false);
     };
     const changeBtnColor = (e)=>{
         if (e.target.value !== "") taskBtn.classList.add("inputNotEmpty");
         else taskBtn.classList.remove("inputNotEmpty");
     };
     const checkOffAllTasks = ()=>{
+        if (!allowedToDisplay) return;
+        setDisplayAllowance(false);
         for(let i = undoneTasks.childNodes.length - 1; i >= 0; i = i - 1){
             undoneTasks.children[i].classList.add("checkedOff");
             undoneTasks.children[i].children[1].children[1].innerText = "task_alt";
@@ -23141,20 +23171,25 @@ function Main() {
         setTimeout(()=>{
             pkmnCard.classList.remove("invisible");
         }, 500);
+        setDisplayAllowance(false);
     };
     const resetAllTasks = ()=>{
         for(let i = doneTasks.childNodes.length - 1; i >= 0; i = i - 1){
             doneTasks.children[i].children[1].children[1].innerText = "circle";
             doneTasks.children[i].classList.remove("checkedOff");
+            doneTasks.children[i].children[0].classList.remove("crossedOut");
             undoneTasks.appendChild(doneTasks.childNodes[i]);
         }
         horizontalRule.classList.remove("displayed");
         horizontalRule.classList.add("undisplayed");
+        setDisplayAllowance(true);
     };
+    // need to fetch the pkmn data twice because not all of the information is entailed by the first fetched data batch
     const fetchPkmnData = ()=>{
         if (!allowedToDisplay) return;
         fetch(`https://pokeapi.co/api/v2/pokemon/${Math.ceil(Math.random() * 493)}`).then((response)=>response.json()
         ).then((data)=>{
+            console.log(data);
             setName(data.name);
             setImgUrl(data.sprites.front_default);
             setTypes([
@@ -23169,13 +23204,14 @@ function Main() {
         }).then((speciesUrl)=>{
             fetch(speciesUrl).then((response)=>response.json()
             ).then((data)=>{
+                console.log(data);
                 setDesc(data["flavor_text_entries"][0]["flavor_text"].replace(/(\n)/g, " "));
             });
         });
     };
     const togglePkmnCard = (action)=>{
         if (action === "display") setTimeout(()=>{
-            pkmnBgd.classList.remove("invisible");
+            pkmnBgd.classList.remove("invisible"); // just undisplay the pkmn card instead of deleting the element
             pkmnBgd.classList.add("dimmed");
             discardBtn.classList.remove("invisible");
             congratulation.classList.remove("invisible");
@@ -23194,17 +23230,19 @@ function Main() {
         setCheckOffAllowance(true);
     };
     return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV("main", {
+        className: `${darkMode ? "dm" : ""}`,
         children: [
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_dashboardDefault.default, {
                 removeAllTasks: removeAllTasks,
                 checkOffAllTasks: checkOffAllTasks,
                 resetAllTasks: resetAllTasks
             }, void 0, false, {
-                fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/Main.jsx",
-                lineNumber: 196,
+                fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/Main.jsx",
+                lineNumber: 212,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_tasksDefault.default, {
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_tasksDefault.default // Q: Is there a way to bundle these props methods?
+            , {
                 tasks: tasks,
                 pendingTask: pendingTask,
                 submitTask: handleSubmit,
@@ -23221,33 +23259,33 @@ function Main() {
                 desc: desc,
                 types: types
             }, void 0, false, {
-                fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/Main.jsx",
-                lineNumber: 201,
+                fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/Main.jsx",
+                lineNumber: 217,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
-        fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/Main.jsx",
-        lineNumber: 195,
+        fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/Main.jsx",
+        lineNumber: 211,
         columnNumber: 5
     }, this));
 }
 exports.default = Main;
-_s(Main, "LoW8vfEDmTE+DqJpEW261YYTKzM=");
+_s(Main, "dAlph8GOHsYU05yJGqEF3BLPcyg=");
 _c = Main;
 var _c;
 $RefreshReg$(_c, "Main");
 
-  $parcel$ReactRefreshHelpers$ae70.postlude(module);
+  $parcel$ReactRefreshHelpers$161c.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"CsIqf","react":"5nGSY","../../stylesheets/main.css":"cac8G","./main/Dashboard":"bFnOT","./main/Tasks":"hvn4A","@parcel/transformer-js/src/esmodule-helpers.js":"ixTFe","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"iSBV5","../context/theme":"8KMIu"}],"cac8G":[function() {},{}],"bFnOT":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$0f63 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-dev-runtime":"luSWC","react":"77mu6","../context/theme":"6YWYb","../../stylesheets/main.css":"aoomG","./main/Dashboard":"h6ufN","./main/Tasks":"apP41","@parcel/transformer-js/src/esmodule-helpers.js":"9M0u6","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"lHSPS"}],"aoomG":[function() {},{}],"h6ufN":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$13b7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$0f63.prelude(module);
+$parcel$ReactRefreshHelpers$13b7.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -23268,20 +23306,20 @@ const DashboardElement = (props)=>{
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
                 className: `fa-solid fa-2xl fa-${props.iClassName}`
             }, void 0, false, {
-                fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/Dashboard.jsx",
+                fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/Dashboard.jsx",
                 lineNumber: 13,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
                 children: props.spanText
             }, void 0, false, {
-                fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/Dashboard.jsx",
+                fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/Dashboard.jsx",
                 lineNumber: 14,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/Dashboard.jsx",
+        fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/Dashboard.jsx",
         lineNumber: 9,
         columnNumber: 5
     }, undefined));
@@ -23300,7 +23338,7 @@ function Dashboard(props) {
                 iClassName: "trash-can",
                 spanText: "Delete all"
             }, void 0, false, {
-                fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/Dashboard.jsx",
+                fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/Dashboard.jsx",
                 lineNumber: 23,
                 columnNumber: 7
             }, this),
@@ -23310,7 +23348,7 @@ function Dashboard(props) {
                 iClassName: "check-double",
                 spanText: "Check of All"
             }, void 0, false, {
-                fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/Dashboard.jsx",
+                fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/Dashboard.jsx",
                 lineNumber: 29,
                 columnNumber: 7
             }, this),
@@ -23320,7 +23358,7 @@ function Dashboard(props) {
                 iClassName: "rotate-left",
                 spanText: "Reset all"
             }, void 0, false, {
-                fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/Dashboard.jsx",
+                fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/Dashboard.jsx",
                 lineNumber: 35,
                 columnNumber: 7
             }, this),
@@ -23330,13 +23368,13 @@ function Dashboard(props) {
                 iClassName: "circle-half-stroke",
                 spanText: "Toggle dark mode"
             }, void 0, false, {
-                fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/Dashboard.jsx",
+                fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/Dashboard.jsx",
                 lineNumber: 41,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
-        fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/Dashboard.jsx",
+        fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/Dashboard.jsx",
         lineNumber: 22,
         columnNumber: 5
     }, this));
@@ -23348,35 +23386,16 @@ var _c, _c1;
 $RefreshReg$(_c, "DashboardElement");
 $RefreshReg$(_c1, "Dashboard");
 
-  $parcel$ReactRefreshHelpers$0f63.postlude(module);
+  $parcel$ReactRefreshHelpers$13b7.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"CsIqf","react":"5nGSY","../../../stylesheets/main/dashboard.css":"1zlIK","@parcel/transformer-js/src/esmodule-helpers.js":"ixTFe","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"iSBV5","../../context/theme":"8KMIu"}],"1zlIK":[function() {},{}],"8KMIu":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$a39b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-dev-runtime":"luSWC","react":"77mu6","../../../stylesheets/main/dashboard.css":"6ivC2","../../context/theme":"6YWYb","@parcel/transformer-js/src/esmodule-helpers.js":"9M0u6","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"lHSPS"}],"6ivC2":[function() {},{}],"apP41":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$0cd4 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$a39b.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "ThemeContext", ()=>ThemeContext
-);
-var _react = require("react");
-const ThemeContext = /*#__PURE__*/ _react.createContext();
-
-  $parcel$ReactRefreshHelpers$a39b.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react":"5nGSY","@parcel/transformer-js/src/esmodule-helpers.js":"ixTFe","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"iSBV5"}],"hvn4A":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$dc54 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$dc54.prelude(module);
+$parcel$ReactRefreshHelpers$0cd4.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -23384,128 +23403,136 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-var _tasksCss = require("../../../stylesheets/main/tasks.css");
-var _taskCreationCss = require("../../../stylesheets/main/task-creation.css");
+var _theme = require("../../context/theme");
 var _pokemonCard = require("./PokemonCard");
 var _pokemonCardDefault = parcelHelpers.interopDefault(_pokemonCard);
+var _tasksCss = require("../../../stylesheets/main/tasks.css");
+var _taskCreationCss = require("../../../stylesheets/main/task-creation.css");
+var _s = $RefreshSig$();
 function Tasks(props) {
+    _s();
+    const { darkMode , toggleMode  } = _react.useContext(_theme.ThemeContext);
     const tasks = props.tasks.map((task, i)=>{
         return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
             id: `task-no-${i + 1}`,
+            className: `task-item ${darkMode ? "dm" : ""}`,
             children: [
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                    className: `task-content ${darkMode ? "dm" : ""}`,
                     children: task
                 }, void 0, false, {
-                    fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/Tasks.jsx",
-                    lineNumber: 10,
+                    fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/Tasks.jsx",
+                    lineNumber: 13,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: `task-btn-ctr ${darkMode ? "dm" : ""}`,
                     children: [
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
-                            className: "fa-solid fa-trash-can",
+                            className: `fa-solid fa-trash-can task-delete-btn ${darkMode ? "dm" : ""}`,
                             onClick: props.removeTask
                         }, void 0, false, {
-                            fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/Tasks.jsx",
-                            lineNumber: 12,
+                            fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/Tasks.jsx",
+                            lineNumber: 15,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                            className: "material-icons-outlined circle",
+                            className: `material-icons-outlined circle ${darkMode ? "dm" : ""}`,
                             onClick: props.checkOffTask,
                             children: "circle"
                         }, void 0, false, {
-                            fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/Tasks.jsx",
-                            lineNumber: 13,
+                            fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/Tasks.jsx",
+                            lineNumber: 16,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
-                    fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/Tasks.jsx",
-                    lineNumber: 11,
+                    fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/Tasks.jsx",
+                    lineNumber: 14,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
-            fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/Tasks.jsx",
-            lineNumber: 9,
+            fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/Tasks.jsx",
+            lineNumber: 12,
             columnNumber: 7
         }, this));
     });
-    return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+    // className={`${darkMode ? "dm" : ""}`}
+    return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_jsxDevRuntime.Fragment, {
         children: [
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("section", {
-                className: "tasks",
+                className: `tasks ${darkMode ? "dm" : ""}`,
                 children: [
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("ul", {
                         className: "undone-tasks",
                         children: tasks
                     }, void 0, false, {
-                        fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/Tasks.jsx",
-                        lineNumber: 27,
+                        fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/Tasks.jsx",
+                        lineNumber: 30,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("hr", {
-                        className: props.visibilities.hr
+                        className: `${props.visibilities.hr} ${darkMode ? "dm" : ""}`
                     }, void 0, false, {
-                        fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/Tasks.jsx",
-                        lineNumber: 28,
+                        fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/Tasks.jsx",
+                        lineNumber: 31,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("ul", {
                         className: "done-tasks"
                     }, void 0, false, {
-                        fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/Tasks.jsx",
-                        lineNumber: 29,
+                        fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/Tasks.jsx",
+                        lineNumber: 32,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
-                fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/Tasks.jsx",
-                lineNumber: 26,
+                fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/Tasks.jsx",
+                lineNumber: 29,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("section", {
-                className: "task-creation",
+                className: `task-creation ${darkMode ? "dm" : ""}`,
                 children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("form", {
-                    className: "task-form",
+                    className: `task-form ${darkMode ? "dm" : ""}`,
                     onSubmit: props.submitTask,
                     children: [
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
                             type: "text",
-                            className: "task-input",
+                            className: `task-input ${darkMode ? "dm" : ""}`,
                             value: props.pendingTask,
                             onChange: props.updatePendingTask,
                             onInput: props.changeBtnColor
                         }, void 0, false, {
-                            fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/Tasks.jsx",
-                            lineNumber: 33,
+                            fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/Tasks.jsx",
+                            lineNumber: 36,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
-                            className: "task-btn",
+                            className: `task-btn ${darkMode ? "dm" : ""}`,
                             children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
                                 className: "material-icons",
                                 children: "add_task"
                             }, void 0, false, {
-                                fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/Tasks.jsx",
-                                lineNumber: 41,
+                                fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/Tasks.jsx",
+                                lineNumber: 44,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
-                            fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/Tasks.jsx",
-                            lineNumber: 40,
+                            fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/Tasks.jsx",
+                            lineNumber: 43,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
-                    fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/Tasks.jsx",
-                    lineNumber: 32,
+                    fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/Tasks.jsx",
+                    lineNumber: 35,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
-                fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/Tasks.jsx",
-                lineNumber: 31,
+                fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/Tasks.jsx",
+                lineNumber: 34,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_pokemonCardDefault.default, {
@@ -23517,32 +23544,29 @@ function Tasks(props) {
                 desc: props.desc,
                 types: props.types
             }, void 0, false, {
-                fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/Tasks.jsx",
-                lineNumber: 45,
+                fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/Tasks.jsx",
+                lineNumber: 48,
                 columnNumber: 7
             }, this)
         ]
-    }, void 0, true, {
-        fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/Tasks.jsx",
-        lineNumber: 25,
-        columnNumber: 5
-    }, this));
+    }, void 0, true));
 }
 exports.default = Tasks;
+_s(Tasks, "nHliyLVvexRWlK3IauvqrxUf1WA=");
 _c = Tasks;
 var _c;
 $RefreshReg$(_c, "Tasks");
 
-  $parcel$ReactRefreshHelpers$dc54.postlude(module);
+  $parcel$ReactRefreshHelpers$0cd4.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"CsIqf","react":"5nGSY","../../../stylesheets/main/tasks.css":"k1DrL","../../../stylesheets/main/task-creation.css":"5daGF","./PokemonCard":"8DYqA","@parcel/transformer-js/src/esmodule-helpers.js":"ixTFe","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"iSBV5"}],"k1DrL":[function() {},{}],"5daGF":[function() {},{}],"8DYqA":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$e16b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-dev-runtime":"luSWC","react":"77mu6","../../context/theme":"6YWYb","./PokemonCard":"41DsM","../../../stylesheets/main/tasks.css":"3cvOW","../../../stylesheets/main/task-creation.css":"dZiVJ","@parcel/transformer-js/src/esmodule-helpers.js":"9M0u6","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"lHSPS"}],"41DsM":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$bb0a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$e16b.prelude(module);
+$parcel$ReactRefreshHelpers$bb0a.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -23566,12 +23590,12 @@ function PkmnCard(props) {
                 children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
                     className: "fa-regular fa-circle-xmark fa-5x"
                 }, void 0, false, {
-                    fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/PokemonCard.jsx",
+                    fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/PokemonCard.jsx",
                     lineNumber: 13,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
-                fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/PokemonCard.jsx",
+                fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/PokemonCard.jsx",
                 lineNumber: 12,
                 columnNumber: 9
             }, this),
@@ -23583,7 +23607,7 @@ function PkmnCard(props) {
                     "You've caught this Pok\xe9mon."
                 ]
             }, void 0, true, {
-                fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/PokemonCard.jsx",
+                fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/PokemonCard.jsx",
                 lineNumber: 15,
                 columnNumber: 9
             }, this),
@@ -23596,7 +23620,7 @@ function PkmnCard(props) {
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
                                 src: props.imgUrl
                             }, void 0, false, {
-                                fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/PokemonCard.jsx",
+                                fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/PokemonCard.jsx",
                                 lineNumber: 21,
                                 columnNumber: 13
                             }, this),
@@ -23607,7 +23631,7 @@ function PkmnCard(props) {
                                         className: "pkmn-name",
                                         children: props.name
                                     }, void 0, false, {
-                                        fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/PokemonCard.jsx",
+                                        fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/PokemonCard.jsx",
                                         lineNumber: 23,
                                         columnNumber: 15
                                     }, this),
@@ -23618,7 +23642,7 @@ function PkmnCard(props) {
                                                 className: "pkmn-type",
                                                 children: props.types[0]
                                             }, void 0, false, {
-                                                fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/PokemonCard.jsx",
+                                                fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/PokemonCard.jsx",
                                                 lineNumber: 25,
                                                 columnNumber: 17
                                             }, this),
@@ -23626,25 +23650,25 @@ function PkmnCard(props) {
                                                 className: "pkmn-type",
                                                 children: props.types[1]
                                             }, void 0, false, {
-                                                fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/PokemonCard.jsx",
+                                                fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/PokemonCard.jsx",
                                                 lineNumber: 27,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
-                                        fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/PokemonCard.jsx",
+                                        fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/PokemonCard.jsx",
                                         lineNumber: 24,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
-                                fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/PokemonCard.jsx",
+                                fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/PokemonCard.jsx",
                                 lineNumber: 22,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
-                        fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/PokemonCard.jsx",
+                        fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/PokemonCard.jsx",
                         lineNumber: 20,
                         columnNumber: 11
                     }, this),
@@ -23655,7 +23679,7 @@ function PkmnCard(props) {
                                 className: "pkmn-desc",
                                 children: props.desc
                             }, void 0, false, {
-                                fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/PokemonCard.jsx",
+                                fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/PokemonCard.jsx",
                                 lineNumber: 33,
                                 columnNumber: 13
                             }, this),
@@ -23665,30 +23689,30 @@ function PkmnCard(props) {
                                     href: `https://duckduckgo.com/?q=${props.name}`,
                                     children: "search the web"
                                 }, void 0, false, {
-                                    fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/PokemonCard.jsx",
+                                    fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/PokemonCard.jsx",
                                     lineNumber: 35,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
-                                fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/PokemonCard.jsx",
+                                fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/PokemonCard.jsx",
                                 lineNumber: 34,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
-                        fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/PokemonCard.jsx",
+                        fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/PokemonCard.jsx",
                         lineNumber: 32,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
-                fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/PokemonCard.jsx",
+                fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/PokemonCard.jsx",
                 lineNumber: 19,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
-        fileName: "Documents/06-coding/projekte/web/mimo-projects/react-parcel-starter/src/components/main/PokemonCard.jsx",
+        fileName: "Documents/06-coding/projekte/mimo-projects/to-do-list/src/components/main/PokemonCard.jsx",
         lineNumber: 11,
         columnNumber: 7
     }, this));
@@ -23699,11 +23723,11 @@ _c = PkmnCard;
 var _c;
 $RefreshReg$(_c, "PkmnCard");
 
-  $parcel$ReactRefreshHelpers$e16b.postlude(module);
+  $parcel$ReactRefreshHelpers$bb0a.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"CsIqf","react":"5nGSY","../../../stylesheets/main/pkmn.css":"erJY8","@parcel/transformer-js/src/esmodule-helpers.js":"ixTFe","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"iSBV5"}],"erJY8":[function() {},{}]},["5p766","gpAfH","fKPdU"], "fKPdU", "parcelRequire94c2")
+},{"react/jsx-dev-runtime":"luSWC","react":"77mu6","../../../stylesheets/main/pkmn.css":"jCjKu","@parcel/transformer-js/src/esmodule-helpers.js":"9M0u6","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"lHSPS"}],"jCjKu":[function() {},{}],"3cvOW":[function() {},{}],"dZiVJ":[function() {},{}]},["eaJGC","fCw4I","hJjAe"], "hJjAe", "parcelRequire94c2")
 
-//# sourceMappingURL=index.5d256ab6.js.map
+//# sourceMappingURL=index.274ba7d4.js.map
